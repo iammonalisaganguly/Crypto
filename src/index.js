@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 
-mongoose.connect("mongodb+srv://Avipatra912:Avi878878@cluster0.kahv6oh.mongodb.net/test",
+mongoose.connect("mongodb+srv://monaganguly:rajmona@cluster0.6zl9c.mongodb.net/blockChain?retryWrites=true&w=majority",
  	 { useNewUrlParser: true })
 .then(() => console.log("MongoDB is connected"))
 .catch((error) => console.log(error))
